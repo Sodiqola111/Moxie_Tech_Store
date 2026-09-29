@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 100%;
+  background-color: whitesmoke;
+
+}
+header{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18%;
+  backdrop-filter: blur(30px);
+  box-shadow: 0px 0px 30px rgba(227, 228, 237, 0.37);
+  border: 2px solid rgba(255, 255, 255, 0.18);
+}
+span{
+  color: red;
+}
+.mart-logo{
+  width: 40px;
+  height: 40px;
+}
+.logo{
+  display: flex;
+  align-items: center;
+}
+.h-logo{
+  font-weight: bolder;
+  font-size: 24px;
+}
+.search-p{
+  border-radius: 5px;
+  padding: 10px;
+  color: grey;
+  background: url(Search\ icon.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: right;
+  border: 1px solid lightgrey;
+
+}
+.pro-serach, .search-p{
+  width: 400px;
+}
+h1, .product-rw1, .product-rw2{
+  margin-left: 20px;
+}
+.btn-cart{
+  color: white;
+  background: url(mart-white.png);
+  background-color: red;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bolder;
+  border: 0;
+}
+.pro-cart, .btn-cart{
+  width: 140px;
+  
+
+}
+.mac, .hp, .ipad, .headset, .mouse, .keyboard{
+  width: 350px;
+  height: 250px;
+  border-radius: 10px;
+}
+.product-rw1, .product-rw2{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  padding: 10px;
+  gap : 5px;
+  
+  
+}
+.btn1-cart{
+  color: white;
+  background: url(mart-white.png);
+  background-color: red;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: left;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bolder;
+  border: 0;
+  width: 200px;
+  cursor: pointer;
+}
+.btn2-cart{
+  color: white;
+  background-color: red;
+  border-radius: 5px;
+  padding: 10px;
+  font-weight: bolder;
+  border: 0;
+  width: 200px;
+  cursor: pointer;
+}
+.cart{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+  margin: 20px;
+}
+.item img{
+  width: 55px;
+  height: 55px;
+  border-radius: 8px;
+  object-fit: cover;
+  background: #eee;
+}
+.qty button {
+  width: 22px;
+  height: 22px;
+  border: 1px solid #ddd;
+  background: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.delete {
+  color: red;
+  cursor: pointer;
+  font-size: 18px;
+}
+.price{
+  font-weight: bolder;
+}
