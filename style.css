@@ -147,8 +147,13 @@ img{
   max-width: 100%;
   height: auto;
 }
-@media (max-width:600px){
-  .product-rw1, .product-rw2, .cart{
+@media (max-width:400px){
+  .product-rw1, .product-rw2{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+  .cart{
+    display: grid;
     grid-template-columns: 1fr;
   }
   header{
@@ -164,6 +169,7 @@ img{
     grid-template-columns: repeat(2, 1fr);
   }
   .cart{
+    display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
 }
